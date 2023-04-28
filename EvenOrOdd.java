@@ -4,9 +4,9 @@ public class EvenOrOdd {
   Scanner input = new Scanner(System.in);
   System.out.println("Enter a number:");
 
-  int num = input.nextInt();
+  int testNum = input.nextInt();
 
-  if (num % 2 == 0) {
+  if (testNum % 2 == 0) {
     System.out.println("Even");
   }
   else {
